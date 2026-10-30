@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cat:catalog SYSTEM "crop-advisories.dtd">
+<cat:catalog xmlns:cat="urn:rythusahayak:crop-advisories"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="urn:rythusahayak:crop-advisories crop-advisories.xsd">
+    <!-- Demonstration data only; a qualified agricultural expert should review this catalogue before real-world use. -->
+    <cat:advisory id="ADV-001">
+        <cat:crop>Paddy</cat:crop>
+        <cat:category>irrigation</cat:category>
+        <cat:title>Observe water distribution</cat:title>
+        <cat:description>Some field sections appear wetter or drier than nearby sections.</cat:description>
+        <cat:recommendation>Compare several safe observation points and note water conditions and dates. Ask a local qualified advisor to assess the field.</cat:recommendation>
+        <cat:growthStage>Any stage</cat:growthStage>
+        <cat:language>English</cat:language>
+        <cat:lastReviewed>2026-01-15</cat:lastReviewed>
+        <cat:source>Educational sample prepared for the RythuSahayak student project; not an official advisory.</cat:source>
+    </cat:advisory>
+    <cat:advisory id="ADV-002">
+        <cat:crop>Paddy</cat:crop>
+        <cat:category>disease</cat:category>
+        <cat:title>Record leaf discoloration</cat:title>
+        <cat:description>Leaves show patches of discoloration that appear different from surrounding plants.</cat:description>
+        <cat:recommendation>Record where the changes occur and photograph representative plants if practical. Seek local expert confirmation before taking action.</cat:recommendation>
+        <cat:growthStage>Vegetative</cat:growthStage>
+        <cat:language>English</cat:language>
+        <cat:lastReviewed>2026-01-15</cat:lastReviewed>
+        <cat:source>Educational sample; symptoms alone do not establish a diagnosis.</cat:source>
+    </cat:advisory>
+    <cat:advisory id="ADV-003">
+        <cat:crop>Cotton</cat:crop>
+        <cat:category>pest</cat:category>
+        <cat:title>Check for changes on leaves</cat:title>
+        <cat:description>Leaf edges or surfaces show visible changes on some plants.</cat:description>
+        <cat:recommendation>Check multiple plants and note how widespread the visible changes are. Do not identify a pest from a single sign; ask a qualified local advisor.</cat:recommendation>
+        <cat:growthStage>Vegetative</cat:growthStage>
+        <cat:language>English</cat:language>
+        <cat:lastReviewed>2026-02-02</cat:lastReviewed>
+        <cat:source>Educational sample for observation practice; no treatment prescription is provided.</cat:source>
+    </cat:advisory>
+    <cat:advisory id="ADV-004">
+        <cat:crop>Cotton</cat:crop>
+        <cat:category>general</cat:category>
+        <cat:title>Keep a field observation log</cat:title>
+        <cat:description>Field conditions and plant appearance can vary across locations and over time.</cat:description>
+        <cat:recommendation>Write down the date, field section, and visible observations consistently. Share the notes with a qualified advisor when requesting help.</cat:recommendation>
+        <cat:growthStage>Any stage</cat:growthStage>
+        <cat:language>English</cat:language>
+        <cat:lastReviewed>2026-02-02</cat:lastReviewed>
+        <cat:source>General educational sample; not an official recommendation.</cat:source>
+    </cat:advisory>
+    <cat:advisory id="ADV-005">
+        <cat:crop>Chilli</cat:crop>
+        <cat:category>nutrient</cat:category>
+        <cat:title>Note uneven plant growth</cat:title>
+        <cat:description>Plants in one part of a field appear to grow differently from plants elsewhere.</cat:description>
+        <cat:recommendation>Compare plant growth and visible soil or water conditions across several locations. Avoid assuming a nutrient cause without local assessment.</cat:recommendation>
+        <cat:growthStage>Vegetative</cat:growthStage>
+        <cat:language>English</cat:language>
+        <cat:lastReviewed>2026-02-10</cat:lastReviewed>
+        <cat:source>Educational observation sample; field-specific assessment is needed.</cat:source>
+    </cat:advisory>
+    <cat:advisory id="ADV-006">
+        <cat:crop>Chilli</cat:crop>
+        <cat:category>disease</cat:category>
+        <cat:title>Track changes on leaves and stems</cat:title>
+        <cat:description>Visible marks or changes appear on leaves or stems of some plants.</cat:description>
+        <cat:recommendation>Note which plant parts are affected and whether nearby plants show similar signs. Consult a qualified local agricultural advisor for identification.</cat:recommendation>
+        <cat:growthStage>Any stage</cat:growthStage>
+        <cat:language>English</cat:language>
+        <cat:lastReviewed>2026-02-10</cat:lastReviewed>
+        <cat:source>Educational sample; descriptions are not a diagnosis.</cat:source>
+    </cat:advisory>
+    <cat:advisory id="ADV-007">
+        <cat:crop>Tomato</cat:crop>
+        <cat:category>irrigation</cat:category>
+        <cat:title>Observe soil moisture differences</cat:title>
+        <cat:description>Soil moisture seems to differ between parts of a plot.</cat:description>
+        <cat:recommendation>Compare soil conditions at several representative points using safe, consistent observations. Ask a local advisor to interpret the differences.</cat:recommendation>
+        <cat:growthStage>Any stage</cat:growthStage>
+        <cat:language>English</cat:language>
+        <cat:lastReviewed>2026-03-01</cat:lastReviewed>
+        <cat:source>General educational sample; not crop-specific irrigation instructions.</cat:source>
+    </cat:advisory>
+    <cat:advisory id="ADV-008">
+        <cat:crop>Tomato</cat:crop>
+        <cat:category>pest</cat:category>
+        <cat:title>Look for patterns of leaf damage</cat:title>
+        <cat:description>Visible leaf damage occurs on a small or unevenly distributed number of plants.</cat:description>
+        <cat:recommendation>Record affected areas and compare several plants. Seek qualified local identification before choosing any management response.</cat:recommendation>
+        <cat:growthStage>Vegetative</cat:growthStage>
+        <cat:language>English</cat:language>
+        <cat:lastReviewed>2026-03-01</cat:lastReviewed>
+        <cat:source>Educational observation sample; no pesticide advice is intended.</cat:source>
+    </cat:advisory>
+    <cat:advisory id="ADV-009">
+        <cat:crop>Maize</cat:crop>
+        <cat:category>nutrient</cat:category>
+        <cat:title>Compare plant color across the plot</cat:title>
+        <cat:description>Plant color appears uneven between rows or field sections.</cat:description>
+        <cat:recommendation>Note the pattern, crop stage, and visible field differences. A qualified advisor can help assess possible causes before any input is applied.</cat:recommendation>
+        <cat:growthStage>Vegetative</cat:growthStage>
+        <cat:language>English</cat:language>
+        <cat:lastReviewed>2026-03-12</cat:lastReviewed>
+        <cat:source>Educational sample; color differences can have multiple causes.</cat:source>
+    </cat:advisory>
+    <cat:advisory id="ADV-010">
+        <cat:crop>Groundnut</cat:crop>
+        <cat:category>general</cat:category>
+        <cat:title>Observe stand consistency</cat:title>
+        <cat:description>Plant spacing or emergence looks less consistent in some plot areas.</cat:description>
+        <cat:recommendation>Record which areas differ and note relevant field conditions. Consult a local expert before drawing conclusions about establishment.</cat:recommendation>
+        <cat:growthStage>Establishment</cat:growthStage>
+        <cat:language>English</cat:language>
+        <cat:lastReviewed>2026-03-12</cat:lastReviewed>
+        <cat:source>General educational sample; not a field diagnosis.</cat:source>
+    </cat:advisory>
+</cat:catalog>

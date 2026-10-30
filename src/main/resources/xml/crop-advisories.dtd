@@ -1,0 +1,16 @@
+<!ELEMENT cat:catalog (cat:advisory+)>
+<!ATTLIST cat:catalog
+          xmlns:cat CDATA #FIXED "urn:rythusahayak:crop-advisories"
+          xmlns:xsi CDATA #IMPLIED
+          xsi:schemaLocation CDATA #IMPLIED>
+<!ELEMENT cat:advisory (cat:crop, cat:category, cat:title, cat:description, cat:recommendation, cat:growthStage, cat:language, cat:lastReviewed, cat:source)>
+<!ATTLIST cat:advisory id ID #REQUIRED>
+<!ELEMENT cat:crop (#PCDATA)>
+<!ELEMENT cat:category (#PCDATA)>
+<!ELEMENT cat:title (#PCDATA)>
+<!ELEMENT cat:description (#PCDATA)>
+<!ELEMENT cat:recommendation (#PCDATA)>
+<!ELEMENT cat:growthStage (#PCDATA)>
+<!ELEMENT cat:language (#PCDATA)>
+<!ELEMENT cat:lastReviewed (#PCDATA)>
+<!ELEMENT cat:source (#PCDATA)>

@@ -1,0 +1,5 @@
+﻿# Copy these settings into %USERPROFILE%\.rythusahayak\db.properties.
+# Replace the placeholder username and password with a local MySQL account.
+jdbc.url=jdbc:mysql://127.0.0.1:3306/rythusahayak_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+jdbc.username=YOUR_DB_USERNAME
+jdbc.password=CHANGE_ME

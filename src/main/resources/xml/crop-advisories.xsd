@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="urn:rythusahayak:crop-advisories"
+           xmlns:cat="urn:rythusahayak:crop-advisories"
+           elementFormDefault="qualified">
+    <xs:simpleType name="categoryType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="pest"/>
+            <xs:enumeration value="disease"/>
+            <xs:enumeration value="irrigation"/>
+            <xs:enumeration value="nutrient"/>
+            <xs:enumeration value="general"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="shortText">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+            <xs:maxLength value="120"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="descriptionText">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="10"/>
+            <xs:maxLength value="500"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="recommendationText">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="15"/>
+            <xs:maxLength value="700"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="advisoryType">
+        <xs:sequence>
+            <xs:element name="crop" type="cat:shortText"/>
+            <xs:element name="category" type="cat:categoryType"/>
+            <xs:element name="title" type="cat:shortText"/>
+            <xs:element name="description" type="cat:descriptionText"/>
+            <xs:element name="recommendation" type="cat:recommendationText"/>
+            <xs:element name="growthStage" type="cat:shortText" minOccurs="0"/>
+            <xs:element name="language" type="cat:shortText"/>
+            <xs:element name="lastReviewed" type="xs:date"/>
+            <xs:element name="source" type="cat:descriptionText"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+    <xs:element name="catalog">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="advisory" type="cat:advisoryType" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
